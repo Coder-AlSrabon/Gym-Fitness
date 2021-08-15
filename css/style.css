@@ -1,91 +1,118 @@
 /* css reset */
-body{
-    color: white;
-    margin: 0;
-    padding: 0;
-    background: url('../img/barbel\ banner.jpg');
-    font-family: 'pacifico';
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.6) url("../img/barbel\ banner.jpg");
+  font-family: "pacifico";
+  background-blend-mode: darken;
 }
-.left{
-    /* border: 2px solid red; */
-    display: inline;
-    position: absolute;
-    top: 15px;
-    left: 20px;
+
+
+/********************
+    Navigation bar 
+ ********************/
+.left {
+  /* border: 2px solid red; */
+  display: inline;
+  position: absolute;
+  top: 15px;
+  left: 20px;
 }
-.mid{
-    /* border: 2px solid yellow; */
-    width: 40%;
-    margin: 20px auto;  
+
+.mid {
+  /* border: 2px solid yellow; */
+  width: 40%;
+  margin: 20px auto;
 }
-.right{
-    display: inline;
-    /* border: 2px solid rgba(9, 204, 155, 0.432); */
-    position: absolute;
-    top: 25px;
-    right: 20px;
+
+.right {
+  display: inline;
+  /* border: 2px solid rgba(9, 204, 155, 0.432); */
+  position: absolute;
+  top: 25px;
+  right: 20px;
 }
-.navbar li{
-    display: inline-block;
-    padding: 14px 21px;
+
+.navbar li {
+  display: inline-block;
+  padding: 14px 21px;
 }
-.navbar li a{
-    color: white;
-    text-decoration: none; 
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
 }
-.navbar li a:hover, .navbar li a.active{
-    color: grey;
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: grey;
 }
-.left img{
-    width: 70px;
-    height: 50px;
-    filter: invert(100%);
-    position: relative;
-    left: 20px;
+
+.left img {
+  width: 70px;
+  height: 50px;
+  filter: invert(100%);
+  position: relative;
+  left: 20px;
 }
-.left div{
-    text-align: center;
-    font-size: 18px;
+
+.left div {
+  text-align: center;
+  font-size: 18px;
 }
-.btn{
-    color: white;
-    background-color: black;
-    margin: 5px 7px;
-    padding: 5px 17px;
-    border-radius: 7px;
-    font-size: 14px;
-    cursor: pointer;
-    font-family: 'pacifico', cursive;
+
+/**************************
+  End of Navigation Menu
+ **************************/
+ 
+.btn {
+  color: white;
+  background-color: black;
+  margin: 5px 7px;
+  padding: 5px 17px;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "pacifico", cursive;
+  transition: 0.3s;
 }
-.btn:hover{
-    background-color: rgb(104, 102, 102);
+
+.btn:hover {
+  background-color: rgb(104, 102, 102);
 }
-.container{
-    border: 2px solid white;
-    margin: 88px 70px;
-    padding: 25px 60px;
-    border-radius: 20px;
-    width: 33%;
+
+.container {
+  border: 2px solid white;
+  margin: 88px 70px;
+  padding: 25px 60px;
+  border-radius: 20px;
+  width: 33%;
 }
-.form-group input{
-    width: 300px;
-    margin: 2px auto;
-    display: block;
-    text-align: center;
-    padding: 3px;
-    border: 2px solid black;
-    margin: 3px auto;
-    border-radius: 7px;
-    font-size: 15px;
-    font-family: 'pacifico';
+
+.form-group input {
+  width: 300px;
+  margin: 2px auto;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  border: 2px solid black;
+  margin: 3px auto;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: "pacifico";
 }
-.container button{
-    display: block;
-    margin: auto;
-    width: 310px;
-    border-radius: 7px;
+
+.container button {
+  display: block;
+  margin: auto;
+  width: 310px;
+  border-radius: 7px;
 }
-.container h1{
-    font-size: 26px;
-    text-align: center;
+
+.container h1 {
+  font-size: 26px;
+  text-align: center;
 }
